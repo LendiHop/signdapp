@@ -20,7 +20,6 @@ const initWallet = async () => {
       console.log("New connection:", permissions.address);
     }
 
-
     const signingMichelsonData = packDataBytes({
       prim: 'Pair', args: [
         { string: 'if you can read this message than task is completed :)' }, // We've hardcoded the data for simplicity
